@@ -140,7 +140,8 @@ img{
     padding: 2rem;
     background-color: rgb(2, 2, 20);
     transition: .5s;
-  }
+}
+
 }
 .nav__item{
   margin-bottom: var(--mb-4);
@@ -164,6 +165,8 @@ img{
 }
 .nav__logo{
   color: var(--second-color);
+  font-size: 30px;
+    font-weight: 500;
 }
 .nav__logo  span{
   color: blue;
