@@ -1,6 +1,7 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
-/*===== VARIABLES CSS =====*/
+
+/*===== CSS VARIABLES =====*/
 :root{
   --header-height: 3rem;
   --font-semi: 600;
@@ -12,7 +13,7 @@
   --second-color: white;
 }
 
-/*===== Fuente y tipografia =====*/
+/*===== Fonts Types=====*/
 :root{
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -27,7 +28,7 @@
   }
 }
 
-/*===== Margenes =====*/
+/*===== Margins =====*/
 :root{
   --mb-1: 0.5rem;
   --mb-2: 1rem;
@@ -76,7 +77,7 @@ img{
   display: block;
 }
 
-/*===== CLASS CSS ===== */
+/*===== CSS CLASSES ===== */
 .section-title{
   position: relative;
   font-size: var(--h2-font-size);
@@ -117,7 +118,7 @@ img{
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #fff;
+  background-color: black;
   box-shadow: 0 1px 4px rgba(146,161,176,.15);
 }
 
@@ -137,7 +138,7 @@ img{
     width: 80%;
     height: 100%;
     padding: 2rem;
-    background-color: var(--second-color);
+    background-color: rgb(2, 2, 20);
     transition: .5s;
   }
 }
@@ -146,7 +147,7 @@ img{
 }
 .nav__link{
   position: relative;
-  color: #fff;
+  color: rgb(252, 250, 250);
 }
 .nav__link:hover{
   position: relative;
@@ -159,6 +160,7 @@ img{
   left: 0;
   top: 2rem;
   background-color: var(--first-color);
+  
 }
 .nav__logo{
   color: var(--second-color);
@@ -167,6 +169,7 @@ img{
   color: var(--second-color);
   font-size: 1.5rem;
   cursor: pointer;
+  
 }
 
 /*Active menu*/
@@ -178,6 +181,7 @@ img{
   left: 0;
   top: 2rem;
   background-color: var(--first-color);
+  
 }
 
 /*=== Show menu ===*/
@@ -347,8 +351,7 @@ img{
 }
 
 /* ===== FOOTER =====*/
-.footer{
-  /* background-color: var(--second-color); */
+.footer{  
   background-color: rgb(0, 0, 7);
   color: #fff;
   text-align: center;
